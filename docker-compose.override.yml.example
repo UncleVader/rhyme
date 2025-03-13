@@ -1,0 +1,8 @@
+services:
+  web:
+    build: 
+      args:
+        PUBLIC_WEB_APP_URL: https://app.rhyme-test.com
+        PUBLIC_API_URL: https://api.rhyme-test.com
+        PUBLIC_POSTHOG_KEY: foo
+        PUBLIC_POSTHOG_HOST: https://us.i.posthog.com

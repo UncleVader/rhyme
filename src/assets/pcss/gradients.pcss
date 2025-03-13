@@ -1,0 +1,16 @@
+@layer components {
+  .home-gradient-1, .home-gradient-2 {
+    @apply absolute -z-[10] bottom-0 size-[680px] rounded-full;
+    filter: blur(500px);
+    transform: rotate(20.405deg);
+    opacity: 0.6;
+  }
+  .home-gradient-1 {
+    @apply left-0;
+    background: linear-gradient(106deg, #9747FF -33.01%, #F1F1FF 87.4%);
+  }
+  .home-gradient-2 {
+    @apply right-0;
+    background: linear-gradient(106deg, #FB0 -33.01%, #FFDF6D 87.4%);
+  }
+}

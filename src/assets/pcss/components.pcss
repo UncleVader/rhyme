@@ -1,0 +1,35 @@
+@import "gradients.pcss";
+
+@layer components {
+  .no-border {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  .yellow-button {
+    @apply flex items-center gap-2.5 bg-yellow hover:bg-yellow-dark rounded-full text-[20px] transition-none font-semibold transition
+  }
+
+  .small-yellow-button-size {
+    @apply px-3 lg:px-4 py-1 lg:py-[9px];
+  }
+
+  .policies {
+    @apply w-[600px] max-w-[90%] pb-10 mx-auto;
+    h1 {
+      @apply text-2xl font-bold mb-4;
+    }
+    h2 {
+      @apply text-lg font-semibold mb-3;
+    }
+    h2 {
+      @apply font-semibold mb-2;
+    }
+    p {
+      @apply text-sm mb-4;
+    }
+
+  }
+
+}

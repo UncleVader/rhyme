@@ -1,0 +1,6 @@
+services:
+  web:
+    build:
+      args:
+        NEXT_PUBLIC_WEB_APP_URL: https://app.rhyme-test.com
+        NEXT_PUBLIC_API_URL: https://api.rhyme-test.com

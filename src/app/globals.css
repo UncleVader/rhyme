@@ -1,0 +1,8 @@
+@import "../assets/tailwind.pcss";
+@import "../assets/pcss/base.pcss";
+@import "../assets/pcss/components.pcss";
+@import "../assets/pcss/typography.pcss";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
