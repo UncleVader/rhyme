@@ -27,7 +27,7 @@ export const Quiz = () => {
 
   return (
     <>
-      <QuizHeader/>
+      {/*<QuizHeader/>*/}
       <div className={"flex flex-col gap-10 w-[660px] max-w-full"}>
         <QuizBox setApi={setCarouselApi}/>
         {carouselApi &&
